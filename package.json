@@ -1,25 +1,39 @@
 {
-    "name": "angular-puremvc-cli",
-    "version": "0.0.1",
-    "description": "Auxilia na integração do framework PureMVC com Angular 2 ou superior, e na criação dos módulos com este framework.",
-    "main": "index.js",
-    "scripts": {
-        "test": "apc"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ricardoteix/angular-puremvc-cli.git"
-    },
-    "keywords": [
-        "angular",
-        "puremvc",
-        "cli",
-        "automate"
-    ],
-    "author": "Ricardo Teixeira",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ricardoteix/angular-puremvc-cli/issues"
-    },
-    "homepage": "https://github.com/ricardoteix/angular-puremvc-cli#readme"
+  "name": "angular-puremvc-cli",
+  "version": "0.0.1",
+  "description": "Auxilia na integração do framework PureMVC com Angular 2 ou superior, e na criação dos módulos com este framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "apc",
+    "link": "npm link",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoteix/angular-puremvc-cli.git"
+  },
+  "keywords": [
+    "angular",
+    "puremvc",
+    "cli",
+    "automate"
+  ],
+  "author": "Ricardo Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoteix/angular-puremvc-cli/issues"
+  },
+  "homepage": "https://github.com/ricardoteix/angular-puremvc-cli#readme",
+  "bin": {
+    "apc": "bin/apc.js"
+  },
+  "dependencies": {
+    "camelcase": "^4.1.0",
+    "decamelize": "^2.0.0",
+    "fs-extra": "^5.0.0",
+    "fs-walk": "0.0.1",
+    "shelljs": "^0.8.0",
+    "uppercamelcase": "^3.0.0",
+    "walk": "^2.3.9"
+  }
 }
