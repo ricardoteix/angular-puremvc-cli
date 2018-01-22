@@ -28,12 +28,19 @@
     "apc": "bin/apc.js"
   },
   "dependencies": {
+    "@angular/cli": "^1.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
     "camelcase": "^4.1.0",
     "decamelize": "^2.0.0",
     "fs-extra": "^5.0.0",
     "fs-walk": "0.0.1",
+    "progress": "^2.0.0",
     "shelljs": "^0.8.0",
     "uppercamelcase": "^3.0.0",
-    "walk": "^2.3.9"
+    "walk": "^2.3.9",
+    "zone.js": "^0.8.4"
   }
 }
